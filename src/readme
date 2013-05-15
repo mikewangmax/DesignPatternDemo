@@ -11,6 +11,12 @@ observer
 
 在应用工厂方法之后，高层组件（PizzaStore）和低层组件（DifferentPizza）都依赖Pizza抽象
 
+two category:
+1, 工厂方法
+   eg，PizzaStore
+2, 抽象工厂
+   eg.PizzaIngredientFactory
+
 
 
 -----------------Observer-----------------------------------------------
