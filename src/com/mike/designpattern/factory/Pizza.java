@@ -2,18 +2,25 @@ package com.mike.designpattern.factory;
 
 import java.util.ArrayList;
 
-public class Pizza {
+import com.mike.designpattern.factory.ingredient.Cheese;
+import com.mike.designpattern.factory.ingredient.Clams;
+import com.mike.designpattern.factory.ingredient.Dough;
+import com.mike.designpattern.factory.ingredient.Pepperoni;
+import com.mike.designpattern.factory.ingredient.Sauce;
+import com.mike.designpattern.factory.ingredient.Veggies;
+
+public abstract class Pizza {
 	protected String mName;
-	protected String mDough;
-	protected String mSauce;
+	protected Dough mDough;
+	protected Sauce mSauce;
+	protected Veggies[] mVeggies;
+	protected Cheese mCheese;
+	protected Pepperoni mPepperoni;
+	protected Clams mClams;
+	
 	protected ArrayList<String> mToppings = new ArrayList<>();
 
-	public void prepare() {
-		System.out.println("Pizza prepare" + mName);
-		for (int i=0; i<mToppings.size(); i++) {
-			System.out.println("   " + mToppings.get(i));
-		}
-	}
+	abstract void prepare() ;
 
 	void bake() {
 		System.out.println("Pizza bake");

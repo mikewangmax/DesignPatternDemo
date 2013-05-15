@@ -1,10 +1,20 @@
 package com.mike.designpattern.factory;
 
+import com.mike.designpattern.factory.ingredient.PizzaIngredientFactory;
+
 public class ChicagoStylePepperoniPizza extends Pizza {
-	public ChicagoStylePepperoniPizza() {
-		mName = "ChicagoStylePepperoniPizza";
-		mDough = "ChicagoStylePepperoniPizzaDough";
-		mSauce = "ChicagoStylePepperoniPizzaSauce";
-		mToppings.add("ChicagoStylePepperoniPizzaToppings");
+	private PizzaIngredientFactory mIngredientFactory;
+	public ChicagoStylePepperoniPizza(PizzaIngredientFactory ingredientFactory) {
+		mIngredientFactory = ingredientFactory;
+	}
+	
+	@Override
+	void prepare() {
+		 mDough = mIngredientFactory.createDough();
+		 mSauce = mIngredientFactory.createSauce();
+		 mVeggies = mIngredientFactory.createVeggies();
+		 mCheese = mIngredientFactory.createCheese();
+		 mPepperoni = mIngredientFactory.createPepperoni();
+		 mClams = mIngredientFactory.createClam();
 	}
 }
