@@ -53,6 +53,4 @@ public class WeatherData extends Observable{
 		return mPressure;
 	}
 	
-	
-	
 }

@@ -1,6 +1,12 @@
 this is the sample for <head first design pattern>
 
------------------Observer---------------
+list:
+
+factory
+observer
+
+
+-----------------Observer-----------------------------------------------
 observer1: user  the <head first customize observer code>
 observer2: user the Java sdk's internal observer code 
 
