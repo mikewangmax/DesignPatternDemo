@@ -6,7 +6,21 @@ observer2: user the Java sdk's internal observer code
 
 different between observer1 and observer2:
 
-the update order is different, follow the sample code, the result is following:
+the update order is different, the doc is follwing:
+
+public class Observable
+extends Object
+此类表示模型视图范例中的 observable 对象，或者说“数据”。可将其子类化，表示应用程序想要观察的对象。
+
+一个 observable 对象可以有一个或多个观察者。观察者可以是实现了 Observer 接口的任意对象。一个 observable 实例改变后，调用 Observable 的 notifyObservers 方法的应用程序会通过调用观察者的 update 方法来通知观察者该实例发生了改变。
+
+未指定发送通知的顺序。Observable 类中所提供的默认实现将按照其注册的重要性顺序来通知 Observers，但是子类可能改变此顺序，从而使用非固定顺序在单独的线程上发送通知，或者也可能保证其子类遵从其所选择的顺序。
+
+注意，此通知机制与线程无关，并且与 Object 类的 wait 和 notify 机制完全独立。
+
+
+
+follow the sample code, the result is following:
 
 observer1 result:
 com.mike.designpattern.observer1.ConditionDisplay1 Current condition ---- mTemprature is :1.0 mHumidity is :2.0 mPressure is :3.0 HeatIndex is :6.0
