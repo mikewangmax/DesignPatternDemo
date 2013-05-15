@@ -6,6 +6,11 @@ factory
 observer
 
 
+-----------------Factory------------------------------------------------
+工厂模型都用来封装对象的创建。工厂模型通过让子类决定该创建的对象是什么，来达到将对象创建的过程封装的目的。
+
+
+
 -----------------Observer-----------------------------------------------
 observer1: user  the <head first customize observer code>
 observer2: user the Java sdk's internal observer code 
