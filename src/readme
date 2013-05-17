@@ -1,9 +1,14 @@
 this is the sample for <head first design pattern>
 
 list:
+Facade
 SingleTon
 factory
 observer
+
+
+-----------------Facade------------------------------------------------
+外观模式： 核心是将方法封装，按照功能封装，只需要调用少量的接口。
 
 -----------------Adapter-----------------------------------------------
 adapter1:
