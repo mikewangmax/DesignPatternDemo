@@ -4,6 +4,7 @@ import java.util.Enumeration;
 import java.util.Iterator;
 import java.util.List;
 
+@SuppressWarnings("rawtypes")
 public class EnumerationToInteratorAdapter implements Iterator<List>{
 	
 	private Enumeration<List> mEnumeration;

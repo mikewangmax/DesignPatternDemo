@@ -3,7 +3,7 @@ package com.mike.designpattern.adapter2;
 import java.util.Enumeration;
 import java.util.Iterator;
 import java.util.List;
-
+@SuppressWarnings("rawtypes")
 public class InteratorToEnumerationAdapter implements Enumeration<List>{
 	
 	private Iterator<List> mIterator;
