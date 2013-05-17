@@ -1,9 +1,21 @@
 this is the sample for <head first design pattern>
 
 list:
-
+SingleTon
 factory
 observer
+
+-----------------Adapter-----------------------------------------------
+adapter1:
+
+two category:
+               1, Object Adapter: implment interface
+               2, Class Adapter: multi-extens
+               
+adapter2:
+               Enumeration----->Iterator
+               Iterator----->Enumeration   
+           
 
 
 -----------------SingleTon----------------------------------------------

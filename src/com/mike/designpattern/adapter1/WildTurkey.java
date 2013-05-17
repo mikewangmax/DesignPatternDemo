@@ -1,6 +1,6 @@
-package com.mike.designpattern.adapter;
+package com.mike.designpattern.adapter1;
 
-public class WildTurkey implements Turkey{
+public class WildTurkey implements ITurkey{
 
 	@Override
 	public void gobble() {

@@ -1,4 +1,4 @@
-package com.mike.designpattern.adapter;
+package com.mike.designpattern.adapter1;
 
 public class Test {
 	public static void main(String[] args) {
@@ -6,13 +6,13 @@ public class Test {
 		
 		//adapter turkey to duck
 		WildTurkey wildTurkey = new WildTurkey();
-		Duck turkeyDuck = new TurkeyAdapter(wildTurkey);
+		IDuck turkeyDuck = new TurkeyToDuckObjectAdapter(wildTurkey);
 		
 		testDuck(mallardDuck);
 		testDuck(turkeyDuck);
 	}
 	
-	static void testDuck(Duck duck) {
+	static void testDuck(IDuck duck) {
 		duck.quack();
 		duck.fly();
 	}
