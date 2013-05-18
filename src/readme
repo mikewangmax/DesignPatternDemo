@@ -1,12 +1,27 @@
 this is the sample for <head first design pattern>
 
 list:
-
+Proxy
 Decorator
 Facade
 SingleTon
 factory
 observer
+
+-----------------Proxy------------------------------------------------
+implement remote proxy steps: p442
+1,制作远程接口
+   1-1 MyRemote.java
+   
+2，制作远程实现
+   2-1 MyRemoteImpl
+   
+3, 产生Stub和Skeleton
+
+4， 执行remiregistry
+
+5，启动服务
+
 
 -----------------Decorator--------------------------------------------
 对扩展开放，对修改关闭。
