@@ -1,12 +1,16 @@
 this is the sample for <head first design pattern>
 
 list:
+Duck
 Proxy
 Decorator
 Facade
 SingleTon
 factory
 observer
+
+-----------------Duck------------------------------------------------
+in the first chapter,  the dark demo
 
 -----------------Proxy------------------------------------------------
 implement remote proxy steps: p442
