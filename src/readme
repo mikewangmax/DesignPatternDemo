@@ -99,27 +99,27 @@ extends Object
 follow the sample code, the result is following:
 
 observer1 result:
-com.mike.designpattern.observer1.ConditionDisplay1 Current condition ---- mTemprature is :1.0 mHumidity is :2.0 mPressure is :3.0 HeatIndex is :6.0
-com.mike.designpattern.observer1.ConditionDisplay2 Current condition ---- mTemprature is :1.0 mHumidity is :2.0 mPressure is :3.0 HeatIndex is :6.0
-com.mike.designpattern.observer1.ConditionDisplay3 Current condition ---- mTemprature is :1.0 mHumidity is :2.0 mPressure is :3.0 HeatIndex is :6.0
-com.mike.designpattern.observer1.ConditionDisplay1 Current condition ---- mTemprature is :4.0 mHumidity is :5.0 mPressure is :6.0 HeatIndex is :120.0
-com.mike.designpattern.observer1.ConditionDisplay2 Current condition ---- mTemprature is :4.0 mHumidity is :5.0 mPressure is :6.0 HeatIndex is :120.0
-com.mike.designpattern.observer1.ConditionDisplay3 Current condition ---- mTemprature is :4.0 mHumidity is :5.0 mPressure is :6.0 HeatIndex is :120.0
-com.mike.designpattern.observer1.ConditionDisplay1 Current condition ---- mTemprature is :7.0 mHumidity is :8.0 mPressure is :9.0 HeatIndex is :504.0
-com.mike.designpattern.observer1.ConditionDisplay2 Current condition ---- mTemprature is :7.0 mHumidity is :8.0 mPressure is :9.0 HeatIndex is :504.0
-com.mike.designpattern.observer1.ConditionDisplay3 Current condition ---- mTemprature is :7.0 mHumidity is :8.0 mPressure is :9.0 HeatIndex is :504.0
+ConditionDisplay1 Current condition ---- mTemprature is :1.0 mHumidity is :2.0 mPressure is :3.0 HeatIndex is :6.0
+ConditionDisplay2 Current condition ---- mTemprature is :1.0 mHumidity is :2.0 mPressure is :3.0 HeatIndex is :6.0
+ConditionDisplay3 Current condition ---- mTemprature is :1.0 mHumidity is :2.0 mPressure is :3.0 HeatIndex is :6.0
+ConditionDisplay1 Current condition ---- mTemprature is :4.0 mHumidity is :5.0 mPressure is :6.0 HeatIndex is :120.0
+ConditionDisplay2 Current condition ---- mTemprature is :4.0 mHumidity is :5.0 mPressure is :6.0 HeatIndex is :120.0
+ConditionDisplay3 Current condition ---- mTemprature is :4.0 mHumidity is :5.0 mPressure is :6.0 HeatIndex is :120.0
+ConditionDisplay1 Current condition ---- mTemprature is :7.0 mHumidity is :8.0 mPressure is :9.0 HeatIndex is :504.0
+ConditionDisplay2 Current condition ---- mTemprature is :7.0 mHumidity is :8.0 mPressure is :9.0 HeatIndex is :504.0
+ConditionDisplay3 Current condition ---- mTemprature is :7.0 mHumidity is :8.0 mPressure is :9.0 HeatIndex is :504.0
 
 
 observer2 result:
-com.mike.designpattern.observer2.ConditionDisplay3 Current condition ---- mTemprature is :1.0 mHumidity is :2.0 mPressure is :3.0 HeatIndex is :6.0
-com.mike.designpattern.observer2.ConditionDisplay2 Current condition ---- mTemprature is :1.0 mHumidity is :2.0 mPressure is :3.0 HeatIndex is :6.0
-com.mike.designpattern.observer2.ConditionDisplay1 Current condition ---- mTemprature is :1.0 mHumidity is :2.0 mPressure is :3.0 HeatIndex is :6.0
-com.mike.designpattern.observer2.ConditionDisplay3 Current condition ---- mTemprature is :4.0 mHumidity is :5.0 mPressure is :6.0 HeatIndex is :120.0
-com.mike.designpattern.observer2.ConditionDisplay2 Current condition ---- mTemprature is :4.0 mHumidity is :5.0 mPressure is :6.0 HeatIndex is :120.0
-com.mike.designpattern.observer2.ConditionDisplay1 Current condition ---- mTemprature is :4.0 mHumidity is :5.0 mPressure is :6.0 HeatIndex is :120.0
-com.mike.designpattern.observer2.ConditionDisplay3 Current condition ---- mTemprature is :7.0 mHumidity is :8.0 mPressure is :9.0 HeatIndex is :504.0
-com.mike.designpattern.observer2.ConditionDisplay2 Current condition ---- mTemprature is :7.0 mHumidity is :8.0 mPressure is :9.0 HeatIndex is :504.0
-com.mike.designpattern.observer2.ConditionDisplay1 Current condition ---- mTemprature is :7.0 mHumidity is :8.0 mPressure is :9.0 HeatIndex is :504.0
+ConditionDisplay3 Current condition ---- mTemprature is :1.0 mHumidity is :2.0 mPressure is :3.0 HeatIndex is :6.0
+ConditionDisplay2 Current condition ---- mTemprature is :1.0 mHumidity is :2.0 mPressure is :3.0 HeatIndex is :6.0
+ConditionDisplay1 Current condition ---- mTemprature is :1.0 mHumidity is :2.0 mPressure is :3.0 HeatIndex is :6.0
+ConditionDisplay3 Current condition ---- mTemprature is :4.0 mHumidity is :5.0 mPressure is :6.0 HeatIndex is :120.0
+ConditionDisplay2 Current condition ---- mTemprature is :4.0 mHumidity is :5.0 mPressure is :6.0 HeatIndex is :120.0
+ConditionDisplay1 Current condition ---- mTemprature is :4.0 mHumidity is :5.0 mPressure is :6.0 HeatIndex is :120.0
+ConditionDisplay3 Current condition ---- mTemprature is :7.0 mHumidity is :8.0 mPressure is :9.0 HeatIndex is :504.0
+ConditionDisplay2 Current condition ---- mTemprature is :7.0 mHumidity is :8.0 mPressure is :9.0 HeatIndex is :504.0
+ConditionDisplay1 Current condition ---- mTemprature is :7.0 mHumidity is :8.0 mPressure is :9.0 HeatIndex is :504.0
 
 
 -------------Commander---------------------------------------------------------
