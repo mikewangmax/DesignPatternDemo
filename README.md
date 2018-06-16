@@ -51,3 +51,9 @@
 + Decorator
 + Template
 + Command
+
+### 6. Book and course recommend
++ Head First Design Pattern
+![](https://covers.oreillystatic.com/images/9780596007126/lrg.jpg)
+
++ Coursera [Desig pattern](https://www.coursera.org/learn/design-patterns) 
